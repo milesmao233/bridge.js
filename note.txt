@@ -1,0 +1,107 @@
+/Users/milesmao233/.nvm/versions/node/v10.13.0/bin/node /Users/milesmao233/nodejs/node/exercise/bridge/bridge.js
+12:19:59 server started at http://0.0.0.0:3300
+12:20:14 request1 { host: '0.0.0.0:3300',
+  connection: 'keep-alive',
+  'content-length': '39',
+  origin: 'http://0.0.0.0:3300',
+  'user-agent':
+   'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'content-type': 'application/json',
+  accept: '*/*',
+  referer: 'http://0.0.0.0:3300/',
+  'accept-encoding': 'gzip, deflate',
+  'accept-language': 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7,la;q=0.6',
+  cookie:
+   '_ga=GA1.1.1813393393.1541661674; UM_distinctid=166f232485dac9-0a44b8e6c19109-1e396652-e1000-166f232485ebfb; CNZZDATA1254020586=121681383-1541661673-http%253A%252F%252F0.0.0.0%253A4000%252F%7C1541661673; session=eyJ1aWQiOjF9; session.sig=rdPmXbDdQRocteqo5dpD-zI9A0g' }
+12:20:14 url result Url {
+  protocol: 'http:',
+  slashes: true,
+  auth: null,
+  host: '0.0.0.0:3000',
+  port: '3000',
+  hostname: '0.0.0.0',
+  hash: null,
+  search: null,
+  query: null,
+  pathname: '/',
+  path: '/',
+  href: 'http://0.0.0.0:3000/' }
+12:20:14 apiOption { headers: { 'Content-Type': 'application/json' },
+  rejectUnauthorized: false,
+  protocol: 'http:',
+  slashes: true,
+  auth: null,
+  host: '0.0.0.0:3000',
+  port: '3000',
+  hostname: '0.0.0.0',
+  hash: null,
+  search: null,
+  query: null,
+  pathname: '/',
+  path: '/' }
+12:20:14 options { headers:
+   { 'Content-Type': 'application/json',
+     host: '0.0.0.0:3300',
+     connection: 'keep-alive',
+     'content-length': '39',
+     origin: 'http://0.0.0.0:3300',
+     'user-agent':
+      'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+     'content-type': 'application/json',
+     accept: '*/*',
+     referer: 'http://0.0.0.0:3300/',
+     'accept-encoding': 'gzip, deflate',
+     'accept-language': 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7,la;q=0.6',
+     cookie:
+      '_ga=GA1.1.1813393393.1541661674; UM_distinctid=166f232485dac9-0a44b8e6c19109-1e396652-e1000-166f232485ebfb; CNZZDATA1254020586=121681383-1541661673-http%253A%252F%252F0.0.0.0%253A4000%252F%7C1541661673; session=eyJ1aWQiOjF9; session.sig=rdPmXbDdQRocteqo5dpD-zI9A0g' },
+  rejectUnauthorized: false,
+  protocol: 'http:',
+  slashes: true,
+  auth: null,
+  host: '0.0.0.0:3000',
+  port: '3000',
+  hostname: '0.0.0.0',
+  hash: null,
+  search: null,
+  query: null,
+  pathname: '/',
+  path: '/api/topic/add',
+  method: 'POST' }
+12:20:14 debug options method POST
+12:20:14 debug body {"title":"nodeclub","content":"node11"} string
+12:20:14 2
+12:20:14 option { headers:
+   { 'Content-Type': 'application/json',
+     host: '0.0.0.0:3300',
+     connection: 'keep-alive',
+     'content-length': '39',
+     origin: 'http://0.0.0.0:3300',
+     'user-agent':
+      'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+     'content-type': 'application/json',
+     accept: '*/*',
+     referer: 'http://0.0.0.0:3300/',
+     'accept-encoding': 'gzip, deflate',
+     'accept-language': 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7,la;q=0.6',
+     cookie:
+      '_ga=GA1.1.1813393393.1541661674; UM_distinctid=166f232485dac9-0a44b8e6c19109-1e396652-e1000-166f232485ebfb; CNZZDATA1254020586=121681383-1541661673-http%253A%252F%252F0.0.0.0%253A4000%252F%7C1541661673; session=eyJ1aWQiOjF9; session.sig=rdPmXbDdQRocteqo5dpD-zI9A0g' },
+  rejectUnauthorized: false,
+  protocol: 'http:',
+  slashes: true,
+  auth: null,
+  host: '0.0.0.0:3000',
+  port: '3000',
+  hostname: '0.0.0.0',
+  hash: null,
+  search: null,
+  query: null,
+  pathname: '/',
+  path: '/api/topic/add',
+  method: 'POST' }
+12:20:14 res { 'x-powered-by': 'Express',
+  'content-type': 'application/json; charset=utf-8',
+  'content-length': '127',
+  etag: 'W/"7f-LHFdmlxcF7KgikosGkeQSNfaV9M"',
+  date: 'Wed, 14 Nov 2018 04:20:14 GMT',
+  connection: 'keep-alive' }
+12:20:14 debug data {"success":true,"data":{"id":4,"created_time":1542169214860,"updated_time":1542169214860,"title":"","content":""},"message":""}
